@@ -1,7 +1,8 @@
 require "whistle-sdk/version"
+require 'faraday'
+require 'faraday_middleware'
+require 'digest/md5'
 
-module Whistle
-  module Sdk
-    # Your code goes here...
-  end
-end
+require 'whistle-sdk/base.rb'
+require 'whistle-sdk/auth-session.rb'
+require 'whistle-sdk/api-session.rb'
