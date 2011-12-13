@@ -1,0 +1,5 @@
+  whistle:
+    username: your-username
+    password: your-password
+    realm: your-realm
+    url: http://apps.2600hz.com:8000/v1 
